@@ -1,0 +1,96 @@
+h1 {
+    color: white;
+    background-color: maroon;
+    padding: 10px;
+    padding-top: 15px;
+}
+
+h4 {
+    background-color: maroon;
+    color: white;
+    padding: .75em;
+}
+
+a:visited {
+    color: darkgray;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: maroon;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: white;
+}
+
+.navbar a:hover {
+    background: #ddd;
+    color: black;
+}
+
+
+body {
+    background-color: white;
+    color: #444;
+    font-family: "Open Sans",Helvetica,Arial,sans-serif;
+    font-weight: 400;
+    padding: .75em;
+}
+
+html, body {
+    min-height: 100%;
+    background-color: lightgray;
+}
+
+p {
+    color: black;
+    background-color: whitesmoke;
+    padding: 1em;
+    border-left: maroon;
+    border-left-style: solid;
+    border-left-width: 7px;
+    box-shadow: 5px 5px 5px;
+}
+
+ul {
+    color: black;
+    background-color: lightgray;
+    padding: 1em;
+    padding-left: 50px;
+    padding-top: 0;
+}
+
+th {
+    background-color: maroon;
+    color: white;
+    text-align: left;
+}
+
+tr {
+    background-color: whitesmoke;
+}
+
+th, tr, td {
+    padding: 1em;
+}
+
+iframe {
+    display: block;
+    margin: 0 auto;
+}
+
+
+
+a:link {
+    color: darkred;
+}

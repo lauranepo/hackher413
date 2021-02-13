@@ -1,0 +1,80 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="main.js"></script>
+</head>
+<body>
+    <h1>UMass Amherst COVID-19 Hub</h1>
+    
+    <div class="navbar">
+        <a href="#resources">Resources</a>
+        <a href="#daily">Case Projection</a>
+        <a href="#comm">Community Transmission</a>
+        <a href="#symptoms">Symptoms of COVID-19</a>
+    </div>
+        
+    
+    <h2 id="resources">Resources for Students</h2>
+    <table style="width:100%">
+        <tr>
+            <th>Resource</th>
+            <th>Description</th>
+            <th>Link</th>
+        </tr>
+        <tr>
+            <td>Amherst Survival Center</td>
+            <td>The Amherst Survival Center is a community center that offers resources to help people meet their basic needs.</td>
+            <td>
+                <a href="https://amherstsurvival.org/"> https://amherstsurvival.org/</a>
+            </td>
+        </tr>
+        <tr>
+            <td>Mass.gov</td>
+            <td>Apply for unemployment benefits.</td>
+            <td><a href="https://www.mass.gov/how-to/apply-for-unemployment-benefits">https://www.mass.gov/how-to/apply-for-unemployment-benefits</a></td>
+        </tr>
+    </table>
+    
+    <p><a href="https://www.umass.edu/dean_students/report-incident">Report a Student Conduct Violation of COVID-19 Guidelines</a></p>
+    
+    <!-- Ideally, would have these values pulled from the respective sites and calculated/updated automatically -->
+    <h2><a href="https://www.amherstcovid19.org/">Active Cases in Amherst as of 2/12/21</a>: 556<br>Percentage of Amherst Cases from UMass: 90.74%</h2>
+    
+    <h4 id="daily">Projected Daily Additional COVID-19 cases at UMass Amherst, using Excel data from: <a href="https://www.umass.edu/coronavirus/dashboard">UMass COVID-19 Dashboard.</a> </h4>
+    
+    <iframe width="650" height="400" frameborder="0" scrolling="no" src="https://umass-my.sharepoint.com/personal/lnepo_umass_edu/_layouts/15/Doc.aspx?sourcedoc={983c45a8-dec7-4e96-b76e-89a9584d91b8}&action=embedview&Item=Chart%201&wdDownloadButton=True&wdInConfigurator=True"></iframe>
+    
+    <p>The forcasted cases and the upper confidence bound were calculated using predictive modeling to perform linear regression analysis in Excel.</p>
+    
+    <h4 id="comm">Potential Community Transmissions</h4>
+    
+    <iframe width="556" height="371" frameborder="0" scrolling="no" src="https://umass-my.sharepoint.com/personal/lnepo_umass_edu/_layouts/15/Doc.aspx?sourcedoc={983c45a8-dec7-4e96-b76e-89a9584d91b8}&action=embedview&Item=Chart%202&wdDownloadButton=True&wdInConfigurator=True"></iframe>
+    
+    <p>The potential community transmissions are determined by the number (or projected number) of positive cases per day multiplied by 0.95, the rate of transmission according to 
+        <a href="https://www.statista.com/statistics/1119412/covid-19-transmission-rate-us-by-state/">Statista.</a>
+    </p>
+    
+    <p><i>Disclaimer: I am not a statician or epidemiologist, and all projections are not official.</i></p>
+    
+    <h2 id="symptoms"><strong><br>Symptoms of COVID-19</strong></h2>
+    
+    <ul>
+        <li>Fever or chills</li>
+        <li>Cough</li>
+        <li>Shortness of breath or difficulty breathing</li>
+        <li>Fatigue</li>
+        <li>Muscle or body aches</li>
+        <li>Headaches</li>
+        <li>New loss of taste or smell</li>
+        <li>Sore throat</li>
+        <li>Congestion or runny nose</li>
+        <li>Nausea or vomiting</li>
+        <li>Diarrhea</li>
+    </ul>
+    
+    
+</body>
+</html>
